@@ -9,7 +9,7 @@ const toggleMenu = () => {
 </script>
 
 <template>
-  <nav class="relative flex items-center justify-between navbar background-navbar p-4 text-white">
+  <nav class="relative flex items-center justify-between navbar background-primary p-4 text-white">
     <div class="logo">
       <a href="#" class="flex items-center">
         <img src="@/assets/imgs/logo.png" alt="Logo" class="h-14 w-auto mr-4" />
@@ -78,8 +78,4 @@ const toggleMenu = () => {
   </nav>
 </template>
 
-<style scoped>
-.background-navbar {
-  background-color: var(--primary-color);
-}
-</style>
+<style scoped></style>
