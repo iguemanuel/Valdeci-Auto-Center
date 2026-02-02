@@ -12,7 +12,7 @@ const toggleMenu = () => {
   <nav class="relative flex items-center justify-between navbar background-navbar p-4 text-white">
     <div class="logo">
       <a href="#" class="flex items-center">
-        <img src="@/assets/logo.png" alt="Logo" class="h-14 w-auto mr-4" />
+        <img src="@/assets/imgs/logo.png" alt="Logo" class="h-14 w-auto mr-4" />
       </a>
     </div>
 
