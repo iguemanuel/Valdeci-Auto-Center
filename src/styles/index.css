@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import 'tailwindcss';
 @plugin "daisyui";
 
@@ -17,4 +18,12 @@
   --text-color-white: #ffffff;
   --text-color-grey: #7a7a7a;
   --text-color-black: #000000;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+.background-primary {
+  background-color: var(--primary-color);
 }

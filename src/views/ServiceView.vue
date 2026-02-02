@@ -65,4 +65,28 @@ import injectionElectronicService from '@/assets/imgs/injecao-eletronica.png'
       />
     </div>
   </div>
+  <div class="min-h-screen background-primary">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-8 justify-items-center">
+      <div class="col-span-2">
+        <div class="about-services">
+          <span class="text-red-500 font-semibold uppercase"
+            >Aqui você encontra qualidade e em quem confiar</span
+          >
+
+          <h2 class="mt-4 uppercase font-bold text-white text-3xl">
+            Por que escolher nossos serviços?
+          </h2>
+          <p class="mt-4 text-white">
+            No Valdeci Auto Center, priorizamos a satisfação do cliente e a excelência em cada
+            serviço prestado. Nossa equipe de profissionais altamente qualificados utiliza
+            equipamentos modernos e técnicas avançadas para garantir que seu veículo receba o melhor
+            cuidado possível. Com um compromisso firme com a transparência, oferecemos orçamentos
+            claros e justos, assegurando que você esteja sempre informado sobre o que está sendo
+            feito. Escolher nossos serviços significa optar por qualidade, confiança e um
+            atendimento personalizado que coloca suas necessidades em primeiro lugar.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
