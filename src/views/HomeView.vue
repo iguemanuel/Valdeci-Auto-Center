@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import CarouselComponent from '@/components/CarouselComponent.vue'
 
-import banner01 from '@/assets/imgs/banner01.jpeg'
+import banner01 from '@/assets/imgs/banner01.png'
 import banner02 from '@/assets/imgs/banner02.png'
 const slides = [
   {
@@ -18,7 +18,7 @@ const slides = [
 </script>
 
 <template>
-  <div class="min-h-screen bg-base-100">
+  <div class="">
     <CarouselComponent :slides="slides" />
   </div>
 </template>
