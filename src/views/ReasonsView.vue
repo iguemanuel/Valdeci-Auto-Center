@@ -1,11 +1,20 @@
 <script setup lang="ts">
 import IconCardComponent from '@/components/IconCardComponent.vue'
 import { reasons } from '@/data/reasons'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const script = document.createElement('script')
+  script.src = 'https://static.elfsight.com/platform/platform.js'
+  script.setAttribute('data-use-service-core', '')
+  script.defer = true
+  document.body.appendChild(script)
+})
 </script>
 
 <template>
-  <section class="min-h-screen background-primary py-16">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-16 justify-items-center mb-12">
+  <section class="background-primary py-16">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-16 justify-items-center mb-12">
       <div class="col-span-1 md:col-span-2 text-center md:text-left">
         <div class="about-services">
           <span class="text-red-500 font-semibold uppercase text-sm tracking-wider">
@@ -32,7 +41,7 @@ import { reasons } from '@/data/reasons'
     </div>
 
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 p-8 px-16 justify-items-center"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 p-8 px-4 md:px-16 justify-items-center"
     >
       <div v-for="reason in reasons" :key="reason.title">
         <IconCardComponent
@@ -41,6 +50,19 @@ import { reasons } from '@/data/reasons'
           :description="reason.description"
         />
       </div>
+    </div>
+  </section>
+
+  <section class="w-full bg-white py-16">
+    <div class="max-w-7xl mx-auto px-4 md:px-16">
+      <div class="text-center mb-8">
+        <h2 class="text-xl md:text-3xl font-black text-slate-900 tracking-tight mb-2">
+          O que nossos clientes dizem
+        </h2>
+        <div class="h-1 w-16 bg-red-500 mx-auto rounded-full mt-2"></div>
+      </div>
+
+      <div class="elfsight-app-2260d322-4175-440f-acc6-48d15cebf289" data-elfsight-app-lazy></div>
     </div>
   </section>
 </template>
