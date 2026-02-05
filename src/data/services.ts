@@ -1,11 +1,11 @@
-import mecanicService from '@/assets/imgs/mecanica-geral.png'
-import suspensionService from '@/assets/imgs/suspensao.png'
-import brakeService from '@/assets/imgs/freios.png'
-import alignmentService from '@/assets/imgs/alinhamento3d.png'
-import balanceService from '@/assets/imgs/balanceamento.png'
-import oilService from '@/assets/imgs/troca-oleo.png'
-import manutentionPreventive from '@/assets/imgs/manutencao-preventiva.png'
-import injectionElectronicService from '@/assets/imgs/injecao-eletronica.png'
+import mecanicService from '@/assets/imgs/servicesCards/mecanica-geral.png'
+import suspensionService from '@/assets/imgs/servicesCards/suspensao.png'
+import brakeService from '@/assets/imgs/servicesCards/freios.png'
+import alignmentService from '@/assets/imgs/servicesCards/alinhamento3d.png'
+import balanceService from '@/assets/imgs/servicesCards/balanceamento.png'
+import oilService from '@/assets/imgs/servicesCards/troca-oleo.png'
+import manutentionPreventive from '@/assets/imgs/servicesCards/manutencao-preventiva.png'
+import injectionElectronicService from '@/assets/imgs/servicesCards/injecao-eletronica.png'
 
 export const services = [
   {
