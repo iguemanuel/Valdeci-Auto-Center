@@ -41,7 +41,7 @@ onUnmounted(() => stopAutoplay())
 </script>
 
 <template>
-  <div 
+  <div
     class="relative w-full overflow-hidden shadow-xl group"
     @mouseenter="stopAutoplay"
     @mouseleave="startAutoplay"
@@ -50,20 +50,14 @@ onUnmounted(() => stopAutoplay())
       class="flex transition-transform duration-700 ease-in-out h-64 md:h-[600px]"
       :style="{ transform: `translateX(-${currentSlide * 100}%)` }"
     >
-      <div
-        v-for="slide in props.slides"
-        :key="slide.id"
-        class="w-full flex-shrink-0 relative"
-      >
-        <img 
-          :src="slide.image" 
-          :alt="slide.alt" 
-          class="w-full h-full object-cover object-center" 
-        />
-        </div>
+      <div v-for="slide in props.slides" :key="slide.id" class="w-full flex-shrink-0 relative">
+        <img :src="slide.image" :alt="slide.alt" class="w-full h-full object-cover object-center" />
+      </div>
     </div>
 
-    <div class="absolute inset-0 flex items-center justify-between p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+    <div
+      class="absolute inset-0 flex items-center justify-between p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+    >
       <button
         @click="prevSlide"
         class="pointer-events-auto btn btn-circle bg-black/30 hover:bg-black/60 text-white border-none backdrop-blur-sm"
