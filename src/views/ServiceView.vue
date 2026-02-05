@@ -11,7 +11,7 @@ import { services } from '@/data/services'
       </h2>
       <div class="h-1.5 w-24 bg-red-500 mx-auto rounded-sm mb-2"></div>
       <p class="text-base font-normal">
-        Aqui alguns dos serviços que oferecemos para cuidar do seu veículo
+        Alguns dos nossos serviços que oferecemos para cuidar do seu veículo.
       </p>
     </div>
 
