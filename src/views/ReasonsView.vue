@@ -5,7 +5,7 @@ import { reasons } from '@/data/reasons'
 
 <template>
   <section class="background-primary py-16">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-16 justify-items-center mb-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-8 md:px-16 justify-items-center mb-12">
       <div class="col-span-1 md:col-span-2 text-left">
         <div class="about-services">
           <span class="text-red-500 font-semibold uppercase text-sm tracking-wider">
@@ -32,7 +32,7 @@ import { reasons } from '@/data/reasons'
     </div>
 
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 p-8 px-16 justify-items-center"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 p-8 md:px-16 justify-items-center"
     >
       <div v-for="reason in reasons" :key="reason.title">
         <IconCardComponent

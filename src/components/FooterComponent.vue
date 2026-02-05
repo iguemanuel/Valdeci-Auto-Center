@@ -5,9 +5,10 @@ const currentYear = new Date().getFullYear()
 // Links de navegação rápida
 const companyLinks = [
   { text: 'Início', href: '#home' },
-  { text: 'Quem Somos', href: '#sobre' },
-  { text: 'Nossos Serviços', href: '#servicos' },
-  { text: 'Contato', href: '#contato' },
+  { text: 'Serviços', href: '#servicos' },
+  { text: 'Sobre', href: '#sobre' },
+  { text: 'Avaliações', href: '#avaliacoes' },
+  { text: 'Localização', href: '#localizacao' },
 ]
 
 // Serviços principais (Resumo)
@@ -21,7 +22,7 @@ const serviceLinks = [
 </script>
 
 <template>
-  <footer class="background-primary text-gray-400 pt-16 pb-8 border-t border-gray-800">
+  <footer class="background-primary text-gray-400 pt-16 p-8 border-t border-gray-800">
     <div class="max-w-7xl mx-auto px-4 md:px-16">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
         <div class="lg:col-span-2 space-y-6">
