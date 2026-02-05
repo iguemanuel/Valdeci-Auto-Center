@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import CarouselComponent from '@/components/CarouselComponent.vue'
 
-import banner01 from '@/assets/imgs/banner01.png'
-import banner02 from '@/assets/imgs/banner02.png'
+import banner01 from '@/assets/imgs/banners/banner01.png'
+import banner02 from '@/assets/imgs/banners/banner02.png'
+import AutomotiveBrands from '@/components/AutomotiveBrands.vue'
 const slides = [
   {
     id: 1,
@@ -20,6 +21,7 @@ const slides = [
 <template>
   <div class="">
     <CarouselComponent :slides="slides" />
+    <AutomotiveBrands />
   </div>
 </template>
 
