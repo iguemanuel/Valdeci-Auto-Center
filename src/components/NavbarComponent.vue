@@ -43,8 +43,8 @@ const closeMenu = () => {
         </li>
         <li>
           <a class="hover:text-red-500 transition-colors duration-200" href="#localizacao"
-            >Localização</object
-          ></a>
+            >Localização
+          </a>
         </li>
       </ul>
 
