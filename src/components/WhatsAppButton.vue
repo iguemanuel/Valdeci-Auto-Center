@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const phoneNumber = '5542999999999'
-const message = 'Olá! Acessei o site da Valdeci Auto Center e gostaria de um orçamento.'
+const message = 'Olá! Gostaria de solicitar um orçamento para o meu veículo'
 
 const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
 </script>
@@ -16,7 +16,7 @@ const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mes
     <span
       class="absolute right-full mr-3 bg-white text-gray-800 text-xs font-bold px-3 py-1.5 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none translate-x-2 group-hover:translate-x-0"
     >
-      Falar Agora
+      Faça seu orçamento
       <span
         class="absolute top-1/2 right-[-4px] -mt-1 border-4 border-transparent border-l-white"
       ></span>

@@ -48,7 +48,10 @@ const closeMenu = () => {
         </li>
       </ul>
 
-      <a href="https://wa.me/5542999999999" target="_blank">
+      <a
+        href="https://wa.me/554291098114?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20o%20meu%20veículo"
+        target="_blank"
+      >
         <button
           class="rounded-full bg-red-600 px-6 py-2.5 text-sm font-bold text-white hover:bg-red-700 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
         >
@@ -102,11 +105,15 @@ const closeMenu = () => {
           >Localização</a
         >
 
-        <a href="https://wa.me/5542999999999" target="_blank" class="w-full px-8">
+        <a
+          href="https://wa.me/554291098114?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20o%20meu%20veículo"
+          target="_blank"
+          class="w-full px-8"
+        >
           <button
             class="w-full rounded-full bg-red-600 px-4 py-3 text-white font-bold hover:bg-red-700 transition"
           >
-            Falar no WhatsApp
+            Entrar em contato
           </button>
         </a>
       </div>
