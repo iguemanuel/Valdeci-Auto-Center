@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const phoneNumber = '5542999999999'
+const phoneNumber = '554291098114'
 const message = 'Olá! Gostaria de solicitar um orçamento para o meu veículo'
 
 const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
