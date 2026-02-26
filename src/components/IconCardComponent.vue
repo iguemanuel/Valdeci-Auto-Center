@@ -8,11 +8,11 @@ const props = defineProps<{
 }>()
 </script>
 
-<
 <template>
-  <div class="card-color p-4 rounded-lg hover:shadow-lg transition-shadow duration-300">
+  <div class="card-color flex flex-col h-full min-h-[210px] p-4 rounded-lg hover:shadow-lg transition-shadow duration-300">
+    
     <div
-      class="icon-card-component flex items-center justify-center w-14 h-14 border border-red-700 shadow-sm transition-shadow duration-300 bg-red-700 mb-4 rounded-md"
+      class="icon-card-component shrink-0 flex items-center justify-center w-14 h-14 border border-red-700 shadow-sm transition-shadow duration-300 bg-red-700 mb-4 rounded-md"
     >
       <component :is="props.icon" class="w-8 h-8 text-white" aria-hidden="true" />
     </div>
@@ -21,9 +21,10 @@ const props = defineProps<{
       {{ props.title }}
     </h3>
 
-    <p class="text-gray-300 text-sm">
+    <p class="text-gray-300 text-sm flex-grow">
       {{ props.description }}
     </p>
+    
   </div>
 </template>
 
