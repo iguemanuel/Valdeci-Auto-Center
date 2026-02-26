@@ -16,10 +16,10 @@ O objetivo principal do projeto foi digitalizar a presença do auto center, cria
 
 Este projeto foi construído com as melhores e mais modernas ferramentas do ecossistema front-end:
 
-* **[Vue.js 3](https://vuejs.org/):** Framework principal, utilizando a *Composition API* e `<script setup>` para componentes mais limpos e reativos.
-* **[TypeScript](https://www.typescriptlang.org/):** Tipagem estática para garantir a integridade dos dados (como as props dos componentes) e evitar erros em tempo de desenvolvimento.
-* **[Tailwind CSS](https://tailwindcss.com/):** Estilização utilitária que permitiu a criação de um design system ágil, utilizando variáveis CSS customizadas e garantindo um visual *pixel-perfect*.
-* **[Heroicons](https://heroicons.com/):** Biblioteca de ícones em SVG de alta qualidade e perfeitamente integrada ao ecossistema Vue.
+* **[Vue.js 3](https://vuejs.org/):** Framework principal
+* **[TypeScript](https://www.typescriptlang.org/):** Tipagem estática para garantir a integridade dos dados.
+* **[Tailwind CSS](https://tailwindcss.com/):** Biblioteca de Estilização utilizada.
+* **[Heroicons](https://heroicons.com/):** Biblioteca de ícones em SVG. 
 
 ## ✨ Destaques Técnicos
 
@@ -28,4 +28,5 @@ Este projeto foi construído com as melhores e mais modernas ferramentas do ecos
 * **Manutenibilidade:** Separação clara de responsabilidades, tipagem forte e estrutura de pastas organizada para escalabilidade futura.
 
 ## Link do site: 
-https://www.valdeci-autocenter.com.br/
+
+* **https://www.valdeci-autocenter.com.br/
