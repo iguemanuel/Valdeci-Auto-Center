@@ -1,42 +1,32 @@
-# valdeci-autocenter
+# 🚗 Valdeci Auto Center - Website Institucional
 
-This template should help get you started developing with Vue 3 in Vite.
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## Recommended IDE Setup
+> Um projeto moderno, responsivo e de alta performance desenvolvido para destacar a tradição e a qualidade de uma oficina automotiva local.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+##  Sobre o Projeto
 
-## Recommended Browser Setup
+Este repositório contém o código-fonte desenvolvido durante um **projeto freelance** para o **Valdeci Auto Center**, um centro automotivo de excelência localizado em Guarapuava, Paraná, atuando no mercado desde 2012.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+O objetivo principal do projeto foi digitalizar a presença do auto center, criando uma página institucional que transmite confiança, apresenta os diferenciais da equipe (como qualidade garantida, transparência nos preços e tecnologia avançada) e facilita o contato para agendamentos e orçamentos.
 
-## Type Support for `.vue` Imports in TS
+## 🛠️ Tecnologias Utilizadas
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Este projeto foi construído com as melhores e mais modernas ferramentas do ecossistema front-end:
 
-## Customize configuration
+* **[Vue.js 3](https://vuejs.org/):** Framework principal
+* **[TypeScript](https://www.typescriptlang.org/):** Tipagem estática para garantir a integridade dos dados.
+* **[Tailwind CSS](https://tailwindcss.com/):** Biblioteca de Estilização utilizada.
+* **[Heroicons](https://heroicons.com/):** Biblioteca de ícones em SVG. 
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## ✨ Destaques Técnicos
 
-## Project Setup
+* **Componentização Inteligente:** Componentes reutilizáveis (como os *Feature Cards*) que recebem ícones e textos dinamicamente via `props`.
+* **Design Responsivo:** Layout projetado com foco na experiência do usuário em qualquer dispositivo (mobile, tablet e desktop) utilizando o poderoso sistema de Grid e Flexbox do Tailwind.
+* **Manutenibilidade:** Separação clara de responsabilidades, tipagem forte e estrutura de pastas organizada para escalabilidade futura.
 
-```sh
-npm install
-```
+## Link do site: 
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+* **https://www.valdeci-autocenter.com.br/
