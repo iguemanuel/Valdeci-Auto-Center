@@ -54,7 +54,7 @@ onUnmounted(() => stopAutoplay())
       <div
         v-for="slide in props.slides"
         :key="slide.id"
-        class="w-full flex-shrink-0 relative aspect-[3/4] md:aspect-auto md:h-[600px]"
+        class="w-full flex-shrink-0 relative aspect-[3/4] md:aspect-auto md:h-[58vh]"
       >
         <picture class="w-full h-full block">
           <source media="(max-width: 767px)" :srcset="slide.imageMobile" />
