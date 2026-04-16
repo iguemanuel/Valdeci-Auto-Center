@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { trackContactClick } from '@/utils/tracking'
 
 const isMenuOpen = ref(false)
 
@@ -50,6 +51,7 @@ const closeMenu = () => {
 
       <a
         href="https://wa.me/554291098114?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20o%20meu%20veículo"
+        @click="trackContactClick"
         target="_blank"
       >
         <button
@@ -107,6 +109,7 @@ const closeMenu = () => {
 
         <a
           href="https://wa.me/554291098114?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20o%20meu%20veículo"
+          @click="trackContactClick"
           target="_blank"
           class="w-full px-8"
         >

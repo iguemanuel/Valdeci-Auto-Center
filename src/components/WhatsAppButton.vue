@@ -1,13 +1,14 @@
 <script setup lang="ts">
+import { trackContactClick } from '@/utils/tracking'
 const phoneNumber = '554291098114'
 const message = 'Olá! Gostaria de solicitar um orçamento para o meu veículo'
-
 const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
 </script>
 
 <template>
   <a
     :href="whatsappLink"
+    @click="trackContactClick"
     target="_blank"
     rel="noopener noreferrer"
     class="fixed bottom-6 right-6 z-[999] group flex items-center justify-center"
